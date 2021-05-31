@@ -1,12 +1,27 @@
-<h4>This boilerpalte has setup with</h4>
-<h6>Full functioning auth, blueprint, and heroku setup</h6>
--postgres database </br>
--migarion setup with flask migrate customized to run from a custom <b>migrate</b> file e.g (python migrate db migrate) other command https://flask-migrate.readthedocs.io/en/latest/#command-reference</br>
--signup and login with jwt</br>
--custom decorator with access to logged in user that can be used to check roles</br>
--heroku file runner setup
+### FLASK AUTHENTICATION BOILERPLATE
 
-you will be required to setup your database url <b>config.py</b> </br>
-install requirements/packages with <b>pip install -r requirements.txt</b>
+## Functionalities.
+- [x] Signup and login with jwt.
+- [x] custom decorator for roles access.
+- [x] heroku file runner setup.
+
+## Tools
+- [x] [Flask Migrate](https://flask-migrate.readthedocs.io/en/latest/#command-reference)
+- [x] Flask Web Framework
+
+## Setup your database url in the file (required)
+```
+config.py
+```
+
+## Install requirements/packages with
+```
+pip install -r requirements.txt
+```
+
+### Run migration
+```
+python migrate db migrate
+```
 
 <h6>Happy coding</h6>
